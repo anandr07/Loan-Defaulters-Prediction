@@ -1,0 +1,74 @@
+
+
+
+<!DOCTYPE html>
+<html >
+<!--From https://codepen.io/frytyler/pen/EGdtg-->
+<head>
+  <meta charset="UTF-8">
+  <title>Project</title>
+  <link href='https://fonts.googleapis.com/css?family=Pacifico' rel='stylesheet' type='text/css'>
+<link href='https://fonts.googleapis.com/css?family=Arimo' rel='stylesheet' type='text/css'>
+<link href='https://fonts.googleapis.com/css?family=Hind:300' rel='stylesheet' type='text/css'>
+<link href='https://fonts.googleapis.com/css?family=Open+Sans+Condensed:300' rel='stylesheet' type='text/css'>
+<link rel="stylesheet" href="{{ url_for('static', filename='css/style.css') }}">
+  
+</head>
+
+<body>
+ <div style="width:200px; margin-left:520px ">
+ 
+ 
+
+	
+
+     <!-- Main Input For Receiving Query to our ML -->
+    <form action="{{ url_for('predict')}}"method="post">
+    
+ <div style="text-align:centre;color:red">  <h1> {{ prediction_text }}
+   </h1>
+   </div>    
+          <h1>Predict Defaulter</h1>
+           <input type="text" name="Term" placeholder="Term" required="required" />
+           <input type="text" name="NoEmp" placeholder="NoEmp" required="required" />
+       <label for="NewExist">NewExist:</label>
+        <select id="NewExist" name="NewExist"  required="required" style="background-color:gray;font-family:cursive;width:200px;padding:4px 4px;marging-bottom:5px;border-radius:4px;">
+          <option value="1">Existing Business</option>
+          <option value="2">New Business</option>
+        </select><br>
+        <input type="text" name="CreateJob" placeholder="CreateJob" required="required" />
+        <input type="text" name="RetainedJob" placeholder="RetainedJob" required="required" />
+       <label for="FranchiseCode">FranchiseCode:</label>
+         <select id="FranchiseCode" name="FranchiseCode"  placeholder="FranchiseCode" required="required" style="background-color:gray;font-family:cursive;width:200px;padding:4px 4px;marging-bottom:5px;border-radius:4px;">
+          <option value="0">Franchise code</option>
+          <option value="1">No Franchise code</option>
+        </select><br>
+        <label for="UrbanRural">UrbanRural:</label>
+        <select id="UrbanRural" name="UrbanRural"  required="required" style="background-color:gray;font-family:cursive;width:200px;padding:4px 4px;marging-bottom:5px;border-radius:4px;">
+          <option value="0">Unknown</option>
+          <option value="1">Urban</option>
+          <option value="2">Rural</option>
+        </select><br>
+        <label for="LowDoc">LowDoc:</label>
+        <select id="LowDoc" name="LowDoc"  placeholder="LowDoc" required="required" style="background-color:gray;font-family:cursive;width:200px;padding:4px 4px;marging-bottom:5px;border-radius:4px;">
+          <option value="1">Yes</option>
+          <option value="0">No</option>
+        </select><br>
+        <input type="text" name="ChgOffPrinGr" placeholder="ChgOffPrinGr" required="required" />
+        <input type="text" name="SBA_Appv" placeholder="SBA_Appv" required="required" />
+        <input type="text" name="DaysforDibursement" placeholder="DaysforDibursement" required="required" />
+        
+        <button type="submit" class="btn btn-primary btn-block btn-large">Predict</button>
+                
+    </form>
+
+
+   <br>
+   <br>
+   
+
+ </div>
+
+
+</body>
+</html>
