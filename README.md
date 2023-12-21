@@ -13,10 +13,12 @@ This model allows the bank to make an analysis based on relevant data and then d
 ![Project_Architecture](https://github.com/anandr07/Loan-Defaulters-Prediction/assets/66896800/94ca0866-c019-408e-9b2f-fd6b344cc65d)
 ![image](https://github.com/anandr07/Loan-Defaulters-Prediction/assets/66896800/5baa77ba-ac74-4f17-a3e4-1c0629e584e7)
 
+
 ## Data Cleaning
 KNN imputation
 Median imputation
 ![image](https://github.com/anandr07/Loan-Defaulters-Prediction/assets/66896800/7bdea877-fe8c-4d33-a860-fcff82837095)
+
 
 ## Models Deployed
 The distance measuring machine learning algorithms need standardization because of the independent variables used are in different scale. So, we fix the scaling issue with standardization technique. 
