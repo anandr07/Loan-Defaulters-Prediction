@@ -18,16 +18,6 @@ This model allows the bank to make an analysis based on relevant data and then d
 1.KNN imputation
 2.Median imputation
 
-DATA SET unique value count                           
-
-![image](https://github.com/anandr07/Loan-Defaulters-Prediction/assets/66896800/913626ac-851c-48e5-9ce0-70d4deb10fb9)
-
-NULL VALUES
-
-![image](https://github.com/anandr07/Loan-Defaulters-Prediction/assets/66896800/3be0a8af-e6cb-46c3-96ad-12d8f9d1a16d)
-
-
-
 ## Explanatory Data Analysis (EDA)
 As per the graph for Disbursement Gross,more cases have less amount as the disbursement gross amount increases, chances of defaulting decreases.
 
