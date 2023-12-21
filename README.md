@@ -4,7 +4,7 @@
 The objective of the analysis is to predict whether the customer will fall under loan default or not. 
 
 ## Project Architecture:
-![image](https://github.com/anandr07/Project-Loan-Defaulters-Prediction/assets/66896800/61c7faa9-f70f-45d3-91c7-5430992c6afc)
+![Blank diagram (1)](https://github.com/anandr07/Loan-Defaulters-Prediction/assets/66896800/938c097c-b4fb-4a8a-b8e6-998855a6a210)
 
 ## Results:
 Highest Acccuracy achieved using XGB: 93.68%
