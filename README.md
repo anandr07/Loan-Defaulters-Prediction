@@ -15,11 +15,13 @@ This model allows the bank to make an analysis based on relevant data and then d
 
 ## Models Deployed
 The distance measuring machine learning algorithms need standardization because of the independent variables used are in different scale. So, we fix the scaling issue with standardization technique. 
+
 The below models have been completed after standardization :
 1.Logistic Regression
 2.KNN
 3.SVM
 4.Naive Bayes
+
 Models completed without Standardization:
 1.Decision Tree
 2.Random Forest
