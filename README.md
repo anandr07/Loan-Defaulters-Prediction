@@ -130,7 +130,7 @@ Visualisation of Imbalance of Train Data.
 After train-test ,the output data is imbalance in train data.So, before model building we have to treat the imbalance of the train data set. Using over Sampling technique called SMOTE.
 
 
-## Models Deployed
+## Models Built
 The distance measuring machine learning algorithms need standardization because of the independent variables used are in different scale. So, we fix the scaling issue with standardization technique. 
 
 The below models have been completed after standardization :
