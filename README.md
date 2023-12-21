@@ -167,17 +167,6 @@ XGBClassifier(base_score=0.5, booster='gbtree', colsample_bylevel=1, colsample_b
 	random_state=0, reg_alpha=0, reg_lambda=1,scale_pos_weight=2,subsample=1,
 	tree_method='exact', validate_parameters=1, verbosity=None) 
 
- Result :
-
- ![image](https://github.com/anandr07/Loan-Defaulters-Prediction/assets/66896800/430fce8d-d117-4e58-a725-705aca5c3beb)
-
-
-1.Based on the following confusion matrix of model, the accuracy of correct prediction of low risk is = (20391)/(20391+1549) *100 = 92.939%
-2.Correct prediction of high risk is = (7386)/(7386+498) *100 = 93.68 %
-	
-So, selecting this Model for deployment.
-
-
 ## Deployment Link:
 http://customer-default-prediction.herokuapp.com/ 
 
